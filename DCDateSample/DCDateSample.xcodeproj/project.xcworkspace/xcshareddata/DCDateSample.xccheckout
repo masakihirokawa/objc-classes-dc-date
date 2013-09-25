@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C2BBCEAE-2652-4EFF-9A8C-87DDB7D931AC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DCDateSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E8F774FC-902E-4F48-AFAA-FCECACBD255B</key>
+		<string>https://github.com/masakihirokawa/objc-classes-dc-date.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DCDateSample/DCDateSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E8F774FC-902E-4F48-AFAA-FCECACBD255B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/masakihirokawa/objc-classes-dc-date.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8F774FC-902E-4F48-AFAA-FCECACBD255B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8F774FC-902E-4F48-AFAA-FCECACBD255B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>objc-classes-dc-date</string>
+		</dict>
+	</array>
+</dict>
+</plist>
