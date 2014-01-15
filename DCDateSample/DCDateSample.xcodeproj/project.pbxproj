@@ -12,15 +12,15 @@
 		609F0D1F17DEF5D300A9226E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609F0D1E17DEF5D300A9226E /* CoreGraphics.framework */; };
 		609F0D2517DEF5D300A9226E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 609F0D2317DEF5D300A9226E /* InfoPlist.strings */; };
 		609F0D2717DEF5D300A9226E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F0D2617DEF5D300A9226E /* main.m */; };
-		609F0D2B17DEF5D300A9226E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F0D2A17DEF5D300A9226E /* AppDelegate.m */; };
-		609F0D2D17DEF5D300A9226E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F0D2C17DEF5D300A9226E /* Default.png */; };
-		609F0D2F17DEF5D300A9226E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F0D2E17DEF5D300A9226E /* Default@2x.png */; };
-		609F0D3117DEF5D300A9226E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F0D3017DEF5D300A9226E /* Default-568h@2x.png */; };
 		609F0D3417DEF5D300A9226E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609F0D3217DEF5D300A9226E /* MainStoryboard_iPhone.storyboard */; };
-		609F0D3717DEF5D300A9226E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609F0D3517DEF5D300A9226E /* MainStoryboard_iPad.storyboard */; };
-		609F0D3A17DEF5D300A9226E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F0D3917DEF5D300A9226E /* ViewController.m */; };
-		609F0D4317DEF60000A9226E /* DCDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F0D4217DEF60000A9226E /* DCDate.m */; };
-		60D1643217DF171F008188D4 /* DCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D1643117DF171F008188D4 /* DCUtil.m */; };
+		C220BA1618864B8500B1B7A3 /* DCDate.m in Sources */ = {isa = PBXBuildFile; fileRef = C220BA0D18864B8500B1B7A3 /* DCDate.m */; };
+		C220BA1718864B8500B1B7A3 /* DCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C220BA0F18864B8500B1B7A3 /* DCUtil.m */; };
+		C220BA1818864B8500B1B7A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C220BA1218864B8500B1B7A3 /* AppDelegate.m */; };
+		C220BA1918864B8500B1B7A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C220BA1518864B8500B1B7A3 /* ViewController.m */; };
+		C220BA2018864B8F00B1B7A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C220BA1D18864B8F00B1B7A3 /* Default-568h@2x.png */; };
+		C220BA2118864B8F00B1B7A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C220BA1E18864B8F00B1B7A3 /* Default.png */; };
+		C220BA2218864B8F00B1B7A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C220BA1F18864B8F00B1B7A3 /* Default@2x.png */; };
+		C220BA2518864DD400B1B7A3 /* DCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C220BA2418864DD400B1B7A3 /* DCLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,19 +32,20 @@
 		609F0D2417DEF5D300A9226E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		609F0D2617DEF5D300A9226E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		609F0D2817DEF5D300A9226E /* DCDateSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCDateSample-Prefix.pch"; sourceTree = "<group>"; };
-		609F0D2917DEF5D300A9226E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		609F0D2A17DEF5D300A9226E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		609F0D2C17DEF5D300A9226E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		609F0D2E17DEF5D300A9226E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		609F0D3017DEF5D300A9226E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		609F0D3317DEF5D300A9226E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		609F0D3617DEF5D300A9226E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		609F0D3817DEF5D300A9226E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		609F0D3917DEF5D300A9226E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		609F0D4117DEF60000A9226E /* DCDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDate.h; sourceTree = "<group>"; };
-		609F0D4217DEF60000A9226E /* DCDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDate.m; sourceTree = "<group>"; };
-		60D1643017DF171F008188D4 /* DCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUtil.h; sourceTree = "<group>"; };
-		60D1643117DF171F008188D4 /* DCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCUtil.m; sourceTree = "<group>"; };
+		C220BA0C18864B8500B1B7A3 /* DCDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDate.h; sourceTree = "<group>"; };
+		C220BA0D18864B8500B1B7A3 /* DCDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDate.m; sourceTree = "<group>"; };
+		C220BA0E18864B8500B1B7A3 /* DCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUtil.h; sourceTree = "<group>"; };
+		C220BA0F18864B8500B1B7A3 /* DCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCUtil.m; sourceTree = "<group>"; };
+		C220BA1118864B8500B1B7A3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C220BA1218864B8500B1B7A3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C220BA1418864B8500B1B7A3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C220BA1518864B8500B1B7A3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C220BA1D18864B8F00B1B7A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C220BA1E18864B8F00B1B7A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C220BA1F18864B8F00B1B7A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C220BA2318864DD400B1B7A3 /* DCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCLabel.h; sourceTree = "<group>"; };
+		C220BA2418864DD400B1B7A3 /* DCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,13 +92,8 @@
 		609F0D2017DEF5D300A9226E /* DCDateSample */ = {
 			isa = PBXGroup;
 			children = (
-				609F0D4017DEF5E600A9226E /* Classes */,
-				609F0D2917DEF5D300A9226E /* AppDelegate.h */,
-				609F0D2A17DEF5D300A9226E /* AppDelegate.m */,
-				609F0D3817DEF5D300A9226E /* ViewController.h */,
-				609F0D3917DEF5D300A9226E /* ViewController.m */,
-				609F0D3217DEF5D300A9226E /* MainStoryboard_iPhone.storyboard */,
-				609F0D3517DEF5D300A9226E /* MainStoryboard_iPad.storyboard */,
+				C220BA0A18864B8500B1B7A3 /* Classes */,
+				C220BA1A18864B8F00B1B7A3 /* Resources */,
 				609F0D2117DEF5D300A9226E /* Supporting Files */,
 			);
 			path = DCDateSample;
@@ -106,26 +102,80 @@
 		609F0D2117DEF5D300A9226E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				609F0D3217DEF5D300A9226E /* MainStoryboard_iPhone.storyboard */,
 				609F0D2217DEF5D300A9226E /* DCDateSample-Info.plist */,
 				609F0D2317DEF5D300A9226E /* InfoPlist.strings */,
 				609F0D2617DEF5D300A9226E /* main.m */,
 				609F0D2817DEF5D300A9226E /* DCDateSample-Prefix.pch */,
-				609F0D2C17DEF5D300A9226E /* Default.png */,
-				609F0D2E17DEF5D300A9226E /* Default@2x.png */,
-				609F0D3017DEF5D300A9226E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		609F0D4017DEF5E600A9226E /* Classes */ = {
+		C220BA0A18864B8500B1B7A3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				609F0D4117DEF60000A9226E /* DCDate.h */,
-				609F0D4217DEF60000A9226E /* DCDate.m */,
-				60D1643017DF171F008188D4 /* DCUtil.h */,
-				60D1643117DF171F008188D4 /* DCUtil.m */,
+				C220BA0B18864B8500B1B7A3 /* DCLibrary */,
+				C220BA1018864B8500B1B7A3 /* Delegate */,
+				C220BA1318864B8500B1B7A3 /* Screen */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		C220BA0B18864B8500B1B7A3 /* DCLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C220BA0C18864B8500B1B7A3 /* DCDate.h */,
+				C220BA0D18864B8500B1B7A3 /* DCDate.m */,
+				C220BA0E18864B8500B1B7A3 /* DCUtil.h */,
+				C220BA0F18864B8500B1B7A3 /* DCUtil.m */,
+				C220BA2318864DD400B1B7A3 /* DCLabel.h */,
+				C220BA2418864DD400B1B7A3 /* DCLabel.m */,
+			);
+			path = DCLibrary;
+			sourceTree = "<group>";
+		};
+		C220BA1018864B8500B1B7A3 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C220BA1118864B8500B1B7A3 /* AppDelegate.h */,
+				C220BA1218864B8500B1B7A3 /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C220BA1318864B8500B1B7A3 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C220BA1418864B8500B1B7A3 /* ViewController.h */,
+				C220BA1518864B8500B1B7A3 /* ViewController.m */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		C220BA1A18864B8F00B1B7A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C220BA1B18864B8F00B1B7A3 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C220BA1B18864B8F00B1B7A3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C220BA1C18864B8F00B1B7A3 /* Splash */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C220BA1C18864B8F00B1B7A3 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C220BA1D18864B8F00B1B7A3 /* Default-568h@2x.png */,
+				C220BA1E18864B8F00B1B7A3 /* Default.png */,
+				C220BA1F18864B8F00B1B7A3 /* Default@2x.png */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,12 +229,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C220BA2218864B8F00B1B7A3 /* Default@2x.png in Resources */,
 				609F0D2517DEF5D300A9226E /* InfoPlist.strings in Resources */,
-				609F0D2D17DEF5D300A9226E /* Default.png in Resources */,
-				609F0D2F17DEF5D300A9226E /* Default@2x.png in Resources */,
-				609F0D3117DEF5D300A9226E /* Default-568h@2x.png in Resources */,
+				C220BA2018864B8F00B1B7A3 /* Default-568h@2x.png in Resources */,
 				609F0D3417DEF5D300A9226E /* MainStoryboard_iPhone.storyboard in Resources */,
-				609F0D3717DEF5D300A9226E /* MainStoryboard_iPad.storyboard in Resources */,
+				C220BA2118864B8F00B1B7A3 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,11 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C220BA1818864B8500B1B7A3 /* AppDelegate.m in Sources */,
+				C220BA1618864B8500B1B7A3 /* DCDate.m in Sources */,
 				609F0D2717DEF5D300A9226E /* main.m in Sources */,
-				609F0D2B17DEF5D300A9226E /* AppDelegate.m in Sources */,
-				609F0D3A17DEF5D300A9226E /* ViewController.m in Sources */,
-				609F0D4317DEF60000A9226E /* DCDate.m in Sources */,
-				60D1643217DF171F008188D4 /* DCUtil.m in Sources */,
+				C220BA2518864DD400B1B7A3 /* DCLabel.m in Sources */,
+				C220BA1718864B8500B1B7A3 /* DCUtil.m in Sources */,
+				C220BA1918864B8500B1B7A3 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,14 +270,6 @@
 				609F0D3317DEF5D300A9226E /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		609F0D3517DEF5D300A9226E /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				609F0D3617DEF5D300A9226E /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +340,7 @@
 				GCC_PREFIX_HEADER = "DCDateSample/DCDateSample-Prefix.pch";
 				INFOPLIST_FILE = "DCDateSample/DCDateSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -309,6 +352,7 @@
 				GCC_PREFIX_HEADER = "DCDateSample/DCDateSample-Prefix.pch";
 				INFOPLIST_FILE = "DCDateSample/DCDateSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

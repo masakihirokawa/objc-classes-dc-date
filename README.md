@@ -10,8 +10,30 @@ Objective-Cで UIDatePickerの取得や、年号日付時刻等の情報を取�
 3. UIDatePickerで選択した日付と現在の日付の比較
 4. UIDatePickerで選択中の年号/月日/時分の取得
 4. 現在の年号/月日/時分秒の取得
+5. 指定した日時からの経過時間を取得
 
 ##使用方法
+
+###指定した日時からの経過日数を取得
+
+```objective-c
+// 日付フォーマット定義
+NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+[dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+
+// 基点となる日付(2014年1月1日)と目標の日付(今日)を定義
+NSString *referenceDateString = @"2014-01-01 00:00:00";
+NSString *targetDateString    = [dateFormatter stringFromDate:[NSDate date]];
+
+// 2014年1月1日から今日までの経過日数を CGFloat型で取得
+CGFloat since = [DCDate since:referenceDateString targetDateString:targetDateString dateFormat:@"yyyy-MM-dd HH:mm:ss" dateUnit:3];
+
+// 四捨五入して NSNumber型に変換
+NSNumber *sinceNum = @(floorf(since));
+
+// コンソール出力
+NSLog(@"今日は 2014年1月1日から %@日経過しています", sinceNum);
+```
 
 ###UIDatePickerの取得
 
