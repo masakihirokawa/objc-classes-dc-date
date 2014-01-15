@@ -200,8 +200,8 @@ typedef NS_ENUM(NSUInteger, dateUnitId) {
     [dateFormatter setLocale:[NSLocale systemLocale]];
     [dateFormatter setDateFormat:dateFormat];
     NSDate *referenceDate = [dateFormatter dateFromString:referenceDateString];
-	NSDate *targetDate    = [dateFormatter dateFromString:targetDateString];
-	NSTimeInterval since  = [targetDate timeIntervalSinceDate:referenceDate];
+    NSDate *targetDate    = [dateFormatter dateFromString:targetDateString];
+    NSTimeInterval since  = [targetDate timeIntervalSinceDate:referenceDate];
     if (dateUnit == SEC) {
         return since;
     } else if (dateUnit == MIN) {
